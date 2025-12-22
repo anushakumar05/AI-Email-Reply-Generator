@@ -20,14 +20,16 @@ Email Assistant/
    ```bash
    npm install
 3. Start the frontend:
+   ```bash
    npm start
 
 ### Backend
 Navigate to backend/
 Build and run:
+```bash
 ./mvnw spring-boot:run
 
-## **5. Usage**
+## Usage
 How to use the app after it’s running.
 1. Open `http://localhost:3000` in your browser.
 2. Enter the email content you want a reply for.
