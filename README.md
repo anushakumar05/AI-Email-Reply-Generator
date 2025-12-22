@@ -8,28 +8,31 @@ Email Assistant is a full-stack application that helps users automatically gener
 
 ## Repository Structure
 Email Assistant/
-├─ frontend/ → React app (UI)
-├─ backend/ → Spring Boot backend API
-├─ email-assistant-ext/ → Browser extension
-├─ hello-world-ext/ → Sample extension for testing
-├─ README.md → This file
+* ├─ frontend/ → React app (UI)
+* ├─ backend/ → Spring Boot backend API
+* ├─ email-assistant-ext/ → Browser extension
+* ├─ hello-world-ext/ → Sample extension for testing
+* ├─ README.md → This file**
 
 ### Frontend
 1. Navigate to `frontend/`
 2. Install dependencies:
    ```bash
    npm install
+   ```
 3. Start the frontend:
    ```bash
    npm start
+   ```
 
 ### Backend
 Navigate to backend/
 Build and run:
 ```bash
 ./mvnw spring-boot:run
+```
 
-## Usage
+### Usage
 How to use the app after it’s running.
 1. Open `http://localhost:3000` in your browser.
 2. Enter the email content you want a reply for.
